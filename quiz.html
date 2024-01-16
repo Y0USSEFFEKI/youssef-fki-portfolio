@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+         <link rel="stylesheet" href="./packages/css/swiper-bundle.min.css"> 
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="./packages/css/styles.css">
+        <script src="packages/js/quiz.js"></script>
+        <title>Youssef</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <p class="nav__logo">Youssef Feki</p>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i>Acceuil
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="about.html" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i>A propos
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="compétences.html" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>Compétences
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="diplomes.html" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>Diplomes
+                            </a>
+                        </li>
+                          
+                        <li class="nav__item">
+                            <a href="projets.html" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i>Projets & Stages                                
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="contact.html" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>Contact                               
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="quiz.html" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>Quiz                               
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <section class="quiz">
+                
+                <form id="quiz">
+                    <h1>Quiz</h1>
+                    <br>
+                    <div style="margin-top: 20px;">
+                        <h3>1. Qui est considéré comme le meilleur joueur de basket-ball de tous les temps ?</h3>
+                        <input type="radio" name="q1" id="q1a" value="a"> Micheal Jordan<br>
+                        <input type="radio" name="q1" id="q1b" value="b"> Kobe Briant<br>
+                        <input type="radio" name="q1" id="q1c" value="c"> Salah Mejri<br>
+                    </div>
+                    <div style="margin-top: 30px;">
+                        <h3>2. Quel athlète a établi le record de vitesse dans la course du 100 mètres ?</h3>
+                        <input type="radio" name="q2" id="q2a" value="a"> Donovan Bailey<br>
+                        <input type="radio" name="q2" id="q2b" value="b"> Usain Bolt<br>
+                        <input type="radio" name="q2" id="q2c" value="c"> Patrick Makau<br>
+                    </div>
+                    <div style="margin-top: 30px;">
+                        <h3>3. Qui est le numéro 1 mondial du tennis ?</h3>
+                        <input type="radio" name="q3" id="q3a" value="a"> Rafael Nadal<br>
+                        <input type="radio" name="q3" id="q3b" value="b"> Novak Djokovic<br>
+                        <input type="radio" name="q3" id="q3c" value="c"> Carlos Alcaraz<br>
+                    </div>
+                    <div style="margin-top: 30px;">
+                        <h3>4. Combien de temps dure un match de handball ?</h3>
+                        <input type="radio" name="q4" id="q4a" value="a"> 60min<br>
+                        <input type="radio" name="q4" id="q4b" value="b"> 90min<br>
+                        <input type="radio" name="q4" id="q4c" value="c"> 30min<br>
+                    </div>
+                    <div style="margin-top: 30px;">
+                        <h3>5. Quelle équipe a gagné la coupe du monde 1998 ?</h3>
+                        <input type="radio" name="q5" id="q5a" value="a"> Allmangne<br>
+                        <input type="radio" name="q5" id="q5b" value="b"> Italie<br>
+                        <input type="radio" name="q5" id="q5c" value="c"> France<br>
+                    </div>
+                    <div style="margin-top: 30px;">
+                        <h3>6. Quelle est la dernière ceinture obtenue en JUDO ?</h3>
+                        <input type="radio" name="q6" id="q6a" value="a"> Rouge<br>
+                        <input type="radio" name="q6" id="q6b" value="b"> Noire<br>
+                        <input type="radio" name="q6" id="q6c" value="c"> Bleue<br>
+                    </div>
+                    <div style="margin-top: 30px;">
+                        <h3>7. Dans quel pays sont nés les Jeux Olympiques antiques ?</h3>
+                        <input type="radio" name="q7" id="q7a" value="a"> Grèce<br>
+                        <input type="radio" name="q7" id="q7b" value="b"> Italie<br>
+                        <input type="radio" name="q7" id="q7c" value="c"> Égypte<br>
+                    </div>
+                    <div style="margin-top: 30px;">
+                        <h3>8. Dans combien de club Lionel Messi a-t-il joué dans sa carrière ?</h3>
+                        <input type="radio" name="q8" id="q8a" value="a"> 1<br>
+                        <input type="radio" name="q8" id="q8b" value="b"> 2<br>
+                        <input type="radio" name="q8" id="q8c" value="c"> 3<br>
+                    </div>
+                    <div style="margin-top: 30px;">
+                        <h3>9. Combien y a-t-il de joueurs dans l'équipe de Volley ?</h3>
+                        <input type="radio" name="q9" id="q9a" value="a"> 5<br>
+                        <input type="radio" name="q9" id="q9b" value="b"> 6<br>
+                        <input type="radio" name="q9" id="q9c" value="c"> 7<br>
+                    </div>
+                    <div style="margin-top: 30px;">
+                        <h3>10. Quelle ville a accueilli les Jeux olympiques en 2012 ?</h3>
+                        <input type="radio" name="q10" id="q10a" value="a"> Londres<br>
+                        <input type="radio" name="q10" id="q10b" value="b"> Tokyo<br>
+                        <input type="radio" name="q10" id="q10c" value="c"> Rome<br>
+                    </div>
+                </form>
+                <button class="button button--flex home__button" onclick="VerifRéponses()" style="margin-left: 148px;margin-top: 20px;">Submit </button>
+            </section>                                                            
+        </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Youssef Feki</h1>
+                    <span class="footer__subtitle">Etudiant</span>
+                </div>
+                <div class="footer__socials">
+                    <a href=https://www.facebook.com/youssef.fki.98 target="_blank" class="footer__social">
+                        <i class="uil uil-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/youssef_fki/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/YoussefFeki23" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="./packages/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+     <script src="./packages/js/main.js"></script> 
+  
+</body>
+
+</html>
